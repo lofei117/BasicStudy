@@ -5,8 +5,8 @@
  **/
 #include <stdio.h>
 #include <stdlib.h>
-#define ODD_MASK 0x555555
-#define EVEN_MASK 0xAAAAAA
+#define ODD_MASK 0x55555555
+#define EVEN_MASK 0xAAAAAAAA
 #define EXCHANGE(x) (((x)&ODD_MASK)<<1)|(((x)&EVEN_MASK)>>1)
 
 int main(int argc, char** args)
